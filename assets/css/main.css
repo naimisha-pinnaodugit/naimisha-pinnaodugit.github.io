@@ -2699,7 +2699,12 @@ input, select, textarea {
 		margin-top: -0.5em;
 		line-height: 1.5em;
 	}
-
+	#one{
+		background-color: #d1dae3;
+	}
+	#two{
+		background-color: #e6e6e6;
+	}
 	header h3 + p {
 		font-size: 1.1em;
 		margin-top: -0.25em;
@@ -2979,6 +2984,7 @@ input, select, textarea {
 				.wrapper.style1 .button.primary {
 					box-shadow: none;
 					background-color: #ffffff;
+					
 					color: #4696e5 !important;
 				}
 
@@ -3611,7 +3617,8 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: #4696e5;
+		
+		background-image: url("/images/pawel-czerwinski-prMn9KINLtI-unsplash.jpg");
 		color: #d1e5f9;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
@@ -3626,7 +3633,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+		
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
